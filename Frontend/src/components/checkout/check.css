@@ -1,0 +1,28 @@
+.address_body {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.1), 0 6px 20px 0 rgba(0, 0, 0, 0.09);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.address_heading {
+  font-size: 30px !important;
+  font-weight: 700 !important;
+  margin-left: 20px;
+  color: rgb(44, 44, 44);
+  padding-top: 10px;
+}
+
+.address_btn {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.address_buttons {
+  margin-top: 20px;
+}
+.go_cart {
+  margin-left: 10px;
+}
+.go_to_cart_btn {
+  width: 10%;
+}

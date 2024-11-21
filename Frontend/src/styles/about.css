@@ -1,0 +1,54 @@
+.container {
+  padding: 20px;
+}
+
+.about-header {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.about-body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 800px;
+}
+
+.about-card {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.company-logo {
+  width: 100px;
+  height: 100px;
+  background-image: url('../images/company_logo.jpg'); /* Add your logo */
+  background-size: cover;
+  margin-right: 20px;
+}
+
+.about-card-text {
+  font-size: 1.2em;
+}
+
+.about-description {
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.about-subheader {
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}

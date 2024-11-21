@@ -1,0 +1,81 @@
+* {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navbar body */
+.navbar_body {
+  background-color: #637509 !important;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Navbar brand */
+.navbar-brand {
+  font-size: 1.8rem;
+  margin-right: 2rem;
+  color: white;
+}
+
+/* Simple home brand */
+.simple_home_brand {
+  margin-right: 3rem;
+  margin-left: 1rem;
+}
+
+/* Navigation links */
+.nav_txt_hov {
+  color: white;
+  cursor: pointer;
+  /* padding: 10px 15px; */
+  border-radius: 20px;
+}
+
+/* Hover effect on navigation links */
+.nav_txt_hov:hover {
+  background: #fbfcf6;
+  color: #232ec6;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Icon spacing within navigation links */
+.nav_txt_hov i {
+  margin-right: 5px;
+}
+
+/* Profile navigation */
+.profile_nav {
+  font-size: 24px;
+}
+
+/* Responsive adjustments for smaller screens */
+@media screen and (max-width: 700px) {
+  .navbar_body {
+    padding: 10px;
+  }
+}
+
+input[type="search"] {
+  background-color: white !important; /* Set the background color for unfocused state */
+  color: black;
+}
+
+input[type="search"]:focus {
+  background-color: white; /* Set the background color for focused state */
+}
+
+.search-body {
+  width: auto;
+  border: 0 !important;
+}
+.search-btn {
+  color: #234cc6;
+  background: white;
+  margin-left: 5px;
+}
+.search-btn:hover {
+  color: #c6237a;
+  background: rgb(246, 246, 246);
+}
+
+.off-canvas-body {
+  background-color: #637509!important;
+}

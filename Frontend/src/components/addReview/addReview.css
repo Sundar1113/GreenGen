@@ -1,0 +1,19 @@
+.submitReview_btn {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.review_rating span label {
+  font-size: 2.5rem !important;
+  color: #faaf00 !important;
+}
+.rating_body {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+.rating_point {
+  margin-left: 5px;
+  font-size: 1.5rem;
+}

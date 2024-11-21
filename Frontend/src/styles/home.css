@@ -1,0 +1,21 @@
+.home_body {
+  height: 85vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* {
+  #23c686
+  #fbfcf6
+  #010101
+  #1d3853
+  #c5d983
+} */
+
+/* BOTH CARD */
+
+/* Resposive For Mobile */
+
+@media (max-width: 768px) {
+}

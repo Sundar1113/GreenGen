@@ -1,0 +1,21 @@
+.market_card {
+  position: relative;
+  width: 180px;
+  height: 180px;
+  /* background: mediumturquoise; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 15px;
+  cursor: pointer;
+
+  margin-top: 20px;
+  margin-bottom: 20px;
+
+  background: #ecffec !important;
+}
+.market_card p:hover {
+  font-size: 1.7rem;
+}
