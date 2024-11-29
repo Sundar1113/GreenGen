@@ -68,6 +68,10 @@ app.use("/api/search", require("./routes/SearchBar/search.js"));
 //Profile
 app.use("/api/update", require("./routes/Update/profile.js"));
 
+app.use("/" , (req, res) => (
+  res.send("hello world")
+))
+
 //Listen
 app.listen(port, () => {
   console.log(`Server running on port ${port}`);
